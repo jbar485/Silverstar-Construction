@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="">
       <Switch>
-        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Landing}/>
         <Route component={Error404}/>
       </Switch>
 
