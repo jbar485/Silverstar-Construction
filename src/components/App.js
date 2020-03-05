@@ -5,7 +5,6 @@ import Landing from "./Landing";
 import HomeList from "./HomeList";
 import About from "./About";
 import Contact from "./Contact";
-import MasterHomeList from "./MasterHomeList";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Switch, Route } from "react-router-dom";
