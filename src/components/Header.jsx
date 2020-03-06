@@ -5,11 +5,25 @@ import "./Header.css";
 function Header() {
   return (
     <div>
-      <h1>Header</h1>
-      <div className="links">
-        <Link to="/about">Our Story</Link> | <Link to="/contact">Contact</Link> | <Link to="/homes">Our Work</Link>
+      <div className="menu-wrap">
+        <input type="checkbox" className="toggler" />
+        <div className="hamburger">
+          <div></div>
+        </div>
+        <div className="menu">
+          <div>
+            <div>
+              <ul>
+              <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">Our Story</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/homes">Our Work</Link></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="topBackground">
+      <div className="logo">
         <Link to="/">
           <img
             className="logo"
