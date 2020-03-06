@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
+import facebook from "../images/facebook.png";
+import instagram from "../images/instagram.png";
 import "./Footer.css";
 
 function Footer() {
@@ -29,14 +31,23 @@ function Footer() {
           </li>
         </div>
         <div className="footer-links">
-        <li>
-            <Link to="/">Home</Link>
+          <li>
+            <a href="https://www.facebook.com/judahnathaniel.barton" target="_blank">
+              <img
+                src={facebook}
+                alt="Facebook Link"
+                className="facebook"
+              />
+            </a>
           </li>
           <li>
-            <Link to="/about">Our Story</Link>
-          </li>
-          <li>
-            <Link to="/homes">Our Work</Link>
+            <a href="https://www.facebook.com/judahnathaniel.barton" target="_blank">
+              <img
+                src={instagram}
+                alt="Instagram Link"
+                className="instagram"
+              />
+            </a>
           </li>
         </div>
       </div>
