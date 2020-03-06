@@ -1,0 +1,9 @@
+.content {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer {
+  height: 50px;
+  margin-bottom: 0px;
+}

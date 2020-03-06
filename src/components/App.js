@@ -23,14 +23,14 @@ class App extends React.Component {
     return (
       <div className="">
         <Header />
-        <Switch>
+        <Switch className="content">
           <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/homes" render={()=><HomeList homeList={this.state.masterHomeList} />} />
           <Route component={Error404} />
         </Switch>
-        <Footer />
+        <Footer className="footer"/>
       </div>
     );
   }
