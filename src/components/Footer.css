@@ -21,3 +21,34 @@
   width: 100%;
   border-top: 1px solid #656565;
 }
+
+.footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footer-pages {
+  text-decoration: none;
+  list-style: none;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+
+.footer-pages > li {
+  display: inline;
+  list-style: none;
+  color: #070707;
+  font-size: 1rem;
+  padding: 0.7rem;
+}
+
+.footer-pages > li > a {
+  color: inherit;
+  text-decoration: none;
+}

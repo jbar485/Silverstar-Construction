@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/logo.png";
 import "./Header.css";
 
 function Header() {
@@ -35,7 +36,7 @@ function Header() {
         <Link to="/">
           <img
             className="logo"
-            src="https://heathenbrewing.com/wp-content/uploads/2017/10/heathen-tiki.png"
+            src={logo}
             alt="logo"
           />
         </Link>
