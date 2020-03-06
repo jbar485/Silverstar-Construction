@@ -3,7 +3,17 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <h1>Footer</h1>
+    <div className="footer">
+    <div className="footer-content">
+      <div className="footer-section about"></div>
+      <div className="footer-section links"></div>
+      <div className="footer-section contact"></div>
+    </div>
+    <div className="footer-bottom">
+      &copy; silverstarconstruction.com | Designed by Judah Barton
+    </div>
+
+    </div>
   );
 }
 

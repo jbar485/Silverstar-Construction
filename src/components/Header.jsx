@@ -14,10 +14,18 @@ function Header() {
           <div>
             <div>
               <ul>
-              <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">Our Story</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/homes">Our Work</Link></li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">Our Story</Link>
+                </li>
+                <li>
+                  <Link to="/homes">Our Work</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
               </ul>
             </div>
           </div>
