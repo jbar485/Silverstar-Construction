@@ -7,3 +7,9 @@
   height: 50px;
   margin-bottom: 0px;
 }
+
+.header {
+  position: sticky;
+  top: 0px;
+  background: #fff;
+}

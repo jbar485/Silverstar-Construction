@@ -22,7 +22,7 @@ class App extends React.Component {
   render(){
     return (
       <div className="">
-        <Header />
+        <Header className="header"/>
         <Switch className="content">
           <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />

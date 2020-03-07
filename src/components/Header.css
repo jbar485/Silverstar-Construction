@@ -17,8 +17,8 @@ body {
 
 .menu-wrap {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 25px;
+  left: 25px;
   z-index: 1;
 }
 
@@ -164,9 +164,6 @@ body {
 
 .header {
   border-bottom: 1px solid #656565;
-  position: sticky;
-  top: 0px;
-  background: #fff;
 }
 
 
