@@ -1,0 +1,24 @@
+.homes-header {
+  margin-top: 5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  margin-left: 5%;
+}
+
+.description {
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.gallery-header {
+  margin-top: 1em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  margin-left: 5%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}

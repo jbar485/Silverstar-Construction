@@ -1,10 +1,12 @@
 import React from 'react';
-import './Home.css'
+import './Landing.css'
 
-function Home() {
+function Landing() {
   return (
-    <h1>Home Page</h1>
+    <div className="intro-div">
+      <h1>hi</h1>
+    </div>
   );
 }
 
-export default Home;
+export default Landing;

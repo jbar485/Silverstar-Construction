@@ -1,11 +1,12 @@
 import React from "react";
 import Home from "./Home";
 import PropTypes from "prop-types";
+import "./HomeList.css";
 
 function HomeList(props) {
   return (
-    <div>
-      <div className="contact-header">
+    <div className="homes-page">
+      <div className="homes-header">
         <h1>Homes</h1>
       </div>
       <div className="description">
@@ -16,6 +17,9 @@ function HomeList(props) {
           what you thought a home could be. We know you’re excited about what
           comes next. We are too.
         </p>
+      </div>
+      <div className="gallery-header">
+        <h3>Gallery</h3>
       </div>
       {props.homeList.map(home => (
         <Home name={home.name} image={home.image} id={home.id} key={home.id} />
