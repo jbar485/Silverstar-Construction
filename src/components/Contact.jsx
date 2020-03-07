@@ -20,11 +20,7 @@ class Contact extends React.Component {
         </div>
         <div className="description">
           <p>
-            Whether you’re ready to break ground on a lifelong vision or are
-            still gazing at the horizon wondering what’s possible, we want to
-            come alongside you as creative partners and help push the boundaries
-            of what you thought a home could be. We know you’re excited about
-            what comes next. We are too.
+          If you want to build the house of your dreams or have your current one remodeled Silverstar Construction is the company to call! We look forward to the opportunity to cater to your needs and exceed your expectations. Trust our experienced home builders to help you achieve the results you want.
           </p>
         </div>
         <div className="information">
