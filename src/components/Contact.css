@@ -1,0 +1,65 @@
+.contact-header {
+  margin-top: 5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  margin-left: 5%;
+}
+
+.formStyles {
+  text-align: center;
+  display: inline;
+}
+
+.inputStyles, .inputStylesArea, .inputStylesTop {
+  width: 40%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 0.3em;
+}
+
+.inputStylesArea {
+  padding-bottom: 10em;
+}
+
+.inputStylesTop {
+  margin-top: 2em;
+}
+
+.btn {
+  cursor: pointer;
+  width: 40%;
+  padding: 1%;
+  margin-bottom: 10em;
+  background: #656565;
+  border-radius: 0.4em;
+}
+
+.btn:hover {
+  background: #070707;
+  transition: 0.3s ease-in;
+}
+
+.plane {
+  width: 10%;
+}
+
+.description {
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.information {
+  margin-left: 5%;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.info {
+  margin: 1em 0em;
+}
+
+.contact-page {
+  font-family: 'Roboto', sans-serif;
+}

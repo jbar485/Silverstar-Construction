@@ -32,7 +32,7 @@ function Footer() {
         </div>
         <div className="footer-links">
           <li>
-            <a href="https://www.facebook.com/judahnathaniel.barton" target="_blank">
+            <a href="https://www.facebook.com/silverstar.homes.1" target="_blank">
               <img
                 src={facebook}
                 alt="Facebook Link"
@@ -41,7 +41,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/judahnathaniel.barton" target="_blank">
+            <a href="https://www.instagram.com/silverstar_homes/" target="_blank">
               <img
                 src={instagram}
                 alt="Instagram Link"
