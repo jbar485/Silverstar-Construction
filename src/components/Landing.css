@@ -55,3 +55,17 @@
   color:rgba(235, 202, 19, 0.8);
   font-weight:normal;
 }
+
+.introImage {
+  margin-left: 66.7vw;
+}
+
+.imager {
+ width: 30.7vw;
+ margin-top: 0.5vw;
+ margin-bottom: 0.5vw;
+}
+
+.introWords{
+  float: left;
+}

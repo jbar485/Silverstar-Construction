@@ -8,7 +8,6 @@ import backhouse from "../images/backhouse.jpg";
 import basketball from "../images/basketball.jpeg";
 import bath from "../images/bath.jpg";
 import entry from "../images/entry.jpeg";
-import front from "../images/front.jpg";
 import gym from "../images/gym.jpg";
 import housefront from "../images/housefront.jpg";
 import housefront2 from "../images/housefront2.jpg";
@@ -39,9 +38,7 @@ function HomeList(props) {
       <div className="gallery-header">
         <h3>Gallery</h3>
       </div>
-      {props.homeList.map(home => (
-        <Home name={home.name} image={home.image} id={home.id} key={home.id} />
-      ))}
+
       <div className="gallery">
         <img
           src={housefront}
@@ -54,16 +51,11 @@ function HomeList(props) {
         <img src={basketball} alt="Basketball court" className="galleryI" />
         <img src={bath} alt="Master Bath" className="galleryI" />
         <img src={entry} alt="Entryway" className="galleryI" />
-        <img src={front} alt="Front of House" className="galleryI" />
         <img src={gym} alt="Home gym" className="galleryI" />
         <img src={housefront2} alt="Front of House" className="galleryI" />
         <img src={infinity} alt="Infinity Pool" className="galleryI" />
         <img src={kitchen} alt="Kitchen" className="galleryI" />
-        <img
-          src={outdoorkitchen}
-          alt="Outdoor Kitchen"
-          className="galleryI"
-        />
+        <img src={outdoorkitchen} alt="Outdoor Kitchen" className="galleryI" />
         <img src={pillar} alt="Pillars" className="galleryI" />
         <img src={pool} alt="Pool" className="galleryI" />
         <img src={secret1} alt="Secret Office" className="galleryI" />
