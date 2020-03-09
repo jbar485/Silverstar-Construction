@@ -22,3 +22,9 @@
 p {
   font-family: 'Roboto', sans-serif;
 }
+
+.galleryI {
+  width: 30%;
+  margin: 1.5%;
+  height: 15em;
+}

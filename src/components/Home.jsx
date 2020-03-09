@@ -7,7 +7,7 @@ function Home(props) {
   return (
     <div>
       <h1>{props.name}</h1>
-      <img src={props.image} alt={props.name}></img>
+      <img src={props.image} alt={props.name}/>
     </div>
   );
 }
