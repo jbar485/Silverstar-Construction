@@ -12,4 +12,6 @@
   position: sticky;
   top: 0px;
   background: #fff;
+  z-index: 4;
+
 }

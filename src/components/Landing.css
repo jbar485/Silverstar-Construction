@@ -37,13 +37,66 @@
   padding-top: 5rem;
 }
 
-.quotations {
+.quote {
   margin-top: 2rem;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 2;
 }
+
+.quote .box {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 2;
+  box-sizing: border-box; 
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-shadow: -10px 10px 30px rgba(0,0,0,.2);
+}
+
+.quote .box:hover {
+  box-shadow: -20px 50px 100px rgba(0,0,0,.2);
+}
+
+.quote .box p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.quote .box h4 {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.quote .box:after {
+  content: url("../images/quote.png");
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  opacity: .1;
+  color:black;
+  width: 50%;
+  height: 60%;
+  
+}
+
 
 @media only screen and (min-width 768px) {
 
 }
+
+/* font-family: 'Roboto', sans-serif; */

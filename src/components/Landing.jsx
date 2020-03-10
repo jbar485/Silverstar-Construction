@@ -11,15 +11,15 @@ function Landing() {
           <h3>Make your dream a Reality</h3>
           <p>
             For three decades, Silverstar Construction has been building custom
-            homes in CLark County. Let us make your dream in to a reality.
+            homes in Clark County. Let us make your dream in to a reality.
           </p>
           <img src={smallLogo} alt="Front of House" className="small-logo" />
         </div>
         <img src={front} alt="Front of House" className="home-image" />
       </div>
-      <div className="quotations">
+      <div className="quote">
         <div>
-          <blockquote class="quote-card">
+          <div class="box box1">
             <p>
               We are finally all settled in. A big thanks to you, your boys and
               Donny. The craftsmanship and care you put into our home really
@@ -29,11 +29,12 @@ function Landing() {
               supported us in the last final push. You were the key component in
               making our build turn out well. Thank you. Thank you. Thank you...
             </p>
-            <cite>Eric + Monique Anton</cite>
-          </blockquote>
+            <h4>Eric + Monique Anton</h4>
+          </div>
         </div>
+
         <div>
-          <blockquote class="quote-card">
+          <div class="box box2">
             <p>
               To sum up our experience, this was our first time building a home
               and our expectations were greatly exceeded. This custom home
@@ -42,23 +43,12 @@ function Landing() {
               are looking to build a home in the area, check out the services of
               these guys. You won’t regret it!
             </p>
-            <cite>Opal Gallegos</cite>
-          </blockquote>
+            <h4>Opal Gallegos</h4>
+          </div>
         </div>
+
         <div>
-          <blockquote class="quote-card">
-            <p>
-              These home builders did an amazing job on my kitchen remodel. they
-              worked very quickly. We went from demolition to completion in less
-              than 4 weeks. The room looks gorgeous and I could not be happier
-              with the outcome. I would not think twice before hiring them
-              again!
-            </p>
-            <cite>Josh Leicester</cite>
-          </blockquote>
-        </div>
-        <div>
-          <blockquote class="quote-card">
+          <div class="box box3">
             <p>
               This specialist changed the game! He recently did some work for
               me. The new construction project was completed on time and in a
@@ -66,8 +56,21 @@ function Landing() {
               open-minded. He cares about the job and wants you to be happy.
               That is invaluable!
             </p>
-            <cite>Marty Basher</cite>
-          </blockquote>
+            <h4>Marty Basher</h4>
+          </div>
+        </div>
+
+        <div>
+          <div class="box box4">
+            <p>
+              These home builders did an amazing job on my kitchen remodel. they
+              worked very quickly. We went from demolition to completion in less
+              than 4 weeks. The room looks gorgeous and I could not be happier
+              with the outcome. I would not think twice before hiring them
+              again!
+            </p>
+            <h4>Josh Leicester</h4>
+          </div>
         </div>
       </div>
     </div>

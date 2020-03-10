@@ -17,8 +17,8 @@ body {
 
 .menu-wrap {
   position: fixed;
-  top: 25px;
-  left: 25px;
+  top: 0px;
+  left: 0px;
   z-index: 1;
 }
 
