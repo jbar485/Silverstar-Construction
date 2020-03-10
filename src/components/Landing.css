@@ -230,4 +230,50 @@ background-size: 100%;
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .intro-div {
+    padding-top: 60px;
+    background-color: #070707;
+    color: #fff;
+    height: 84vh;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .landing-header {
+    margin-top: 0em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    margin-left: 5%;
+    padding-top: 2em;
+    margin-right: 68%;
+  }
+
+  .quote .box {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    box-sizing: border-box; 
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: -10px 10px 30px rgba(0,0,0,.2);
+    width: 48%;
+  }
+  
+  .quote .box:after {
+    content: url("../images/quote.png");
+    position: absolute;
+    bottom: -50px;
+    right: -30px;
+    opacity: .1;
+    color:black;
+    width: 50%;
+    height: auto;
+  }
+ 
+}
+
 /* font-family: 'Roboto', sans-serif; */

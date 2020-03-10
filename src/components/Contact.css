@@ -102,3 +102,34 @@
     border-radius: 0.4em;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+
+  .contact-header {
+    margin-top: 10rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3em;
+    margin-left: 5%;
+    margin-right: 90%;
+  }
+
+  .inputStyles, .inputStylesArea, .inputStylesTop {
+    width: 80%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 0.3em;
+  }
+
+  .btn {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin-bottom: 5em;
+    background: #656565;
+    border-radius: 0.4em;
+  }
+
+  .inputStylesArea {
+    height: 10rem;
+  }
+}

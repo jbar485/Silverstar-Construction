@@ -32,21 +32,23 @@
     margin-bottom: 2em;
   }
   .about-header {
-    margin-top: 5em;
+    margin-top: 8em;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 2em;
     margin-left: 5%;
-    margin-right: 80%;
-  }
-
-  .about-image {
-    margin-left: 5%;
-    margin-bottom: 2em;
+    margin-right: 83%;
   }
 
   .back-house {
     width: 60%;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    margin-left: 5%;
+  }
+
+  .signature {
+    margin-left: 5%;
+    margin-bottom: 1em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 }
 
@@ -55,24 +57,26 @@
     width: 60%;
     margin-left: 5%;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
   }
-
-
 
   .about-header {
-    margin-top: 5em;
+    margin-top: 10rem;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 2em;
-    margin-left: 5%;
+    font-size: 3em;
+    margin-left: 4%;
     margin-right: 80%;
-  }
-
-  .about-image {
-    margin-left: 5%;
   }
 
   .back-house {
     width: 60%;
+    margin-left: 5%;
+  }
+
+  .signature {
+    margin-left: 5%;
+    margin-bottom: 1em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 }

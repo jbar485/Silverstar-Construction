@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import front from "../images/front.jpg";
 import basketabll from "../images/basketball.jpeg"
 import smallLogo from "../images/small-logo.png";
@@ -17,6 +18,14 @@ function Landing() {
           <img src={smallLogo} alt="Front of House" className="small-logo" />
         </div>
         <img src={front} alt="Front of House" className="home-image" />
+        {/* <div className="link-buttons">
+          <li>
+            <Link to="/contact"><button type="submit" className="btn">Contact Us</button></Link>
+          </li>
+          <li>
+            <Link to="/about"><button type="submit" className="btn">About Us</button></Link>
+          </li>
+        </div> */}
       </div>
       <div>
         <div className="employee">
@@ -34,7 +43,7 @@ function Landing() {
         </div>
       </div>
       <div className="quote">
-        <div>
+        
           <div class="box box1">
             <p>
               We are finally all settled in. A big thanks to you, your boys and
@@ -46,10 +55,10 @@ function Landing() {
               making our build turn out well. Thank you. Thank you. Thank you...
             </p>
             <h4>Eric + Monique Anton</h4>
-          </div>
+        
         </div>
 
-        <div>
+       
           <div class="box box2">
             <p>
               To sum up our experience, this was our first time building a home
@@ -60,10 +69,10 @@ function Landing() {
               these guys. You won’t regret it!
             </p>
             <h4>Opal Gallegos</h4>
-          </div>
+        
         </div>
 
-        <div>
+       
           <div class="box box3">
             <p>
               This specialist changed the game! He recently did some work for
@@ -73,10 +82,9 @@ function Landing() {
               That is invaluable!
             </p>
             <h4>Marty Basher</h4>
-          </div>
+          
         </div>
-
-        <div>
+       
           <div class="box box4">
             <p>
               These home builders did an amazing job on my kitchen remodel. they
@@ -87,8 +95,9 @@ function Landing() {
             </p>
             <h4>Josh Leicester</h4>
           </div>
-        </div>
-        <div className="quality">
+        
+      </div>
+      <div className="quality">
           
           <div className="quality-description">
             <h3 className="quality-header">Quality is our Motto</h3>
@@ -103,7 +112,6 @@ function Landing() {
           </div>
           <img src={basketabll} alt="basketball court" className="quality-image" />
         </div>
-      </div>
     </div>
   );
 }
