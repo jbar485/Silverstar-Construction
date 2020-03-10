@@ -15,6 +15,15 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.about-image {
+  margin-bottom: 1em;
+}
+
+.back-house {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
 @media only screen and (min-width: 768px) {
   .description {
     width: 60%;
@@ -22,6 +31,34 @@
     margin-top: 2em;
     margin-bottom: 2em;
   }
+  .about-header {
+    margin-top: 5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    margin-left: 5%;
+    margin-right: 80%;
+  }
+
+  .about-image {
+    margin-left: 5%;
+    margin-bottom: 2em;
+  }
+
+  .back-house {
+    width: 60%;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .description {
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+
 
   .about-header {
     margin-top: 5em;
@@ -29,5 +66,13 @@
     font-size: 2em;
     margin-left: 5%;
     margin-right: 80%;
+  }
+
+  .about-image {
+    margin-left: 5%;
+  }
+
+  .back-house {
+    width: 60%;
   }
 }

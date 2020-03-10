@@ -1,5 +1,6 @@
 import React from "react";
 import front from "../images/front.jpg";
+import basketabll from "../images/basketball.jpeg"
 import smallLogo from "../images/small-logo.png";
 import "./Landing.css";
 
@@ -16,6 +17,21 @@ function Landing() {
           <img src={smallLogo} alt="Front of House" className="small-logo" />
         </div>
         <img src={front} alt="Front of House" className="home-image" />
+      </div>
+      <div>
+        <div className="employee">
+          <h3 className="landing-header">Customer Satisfaction First</h3>
+          <div className="description">
+            <p>
+              Established in 1990 we serve our clients with great respect and
+              professionalism. We always put customer satisfaction first and go
+              the distance to meet the needs and exceed the expectations of our
+              clients. Silverstar Construction is fully licensed and we offer
+              free estimates. With us, you will get quality yet affordable
+              construction or home remodeling services.
+            </p>
+          </div>
+        </div>
       </div>
       <div className="quote">
         <div>
@@ -71,6 +87,21 @@ function Landing() {
             </p>
             <h4>Josh Leicester</h4>
           </div>
+        </div>
+        <div className="quality">
+          
+          <div className="quality-description">
+            <h3 className="quality-header">Quality is our Motto</h3>
+            <p>
+            With a great deal of hands-on experience and a crew compromised of
+          skilled, reliable, and well-equipped professionals, we are ready to
+          take on any challenge you may have for us. We take great pride in our
+          reputation and standing in the local community and always go the
+          distance to keep it spotless. Being the home builder of choice in town
+          is a great responsibility we never take lightly.
+            </p>
+          </div>
+          <img src={basketabll} alt="basketball court" className="quality-image" />
         </div>
       </div>
     </div>

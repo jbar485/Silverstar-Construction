@@ -1,4 +1,5 @@
 import React from "react";
+import backhouse from "../images/backhouse.jpg";
 import "./About.css";
 
 function About() {
@@ -16,6 +17,9 @@ function About() {
           and attention to detail.
         </p>
       </div>
+      <div className="about-image">
+      <img src={backhouse} alt="Back of house" className="back-house" />  
+      </div>
       <div className="description">
         <p>
           With a great deal of hands-on experience and a crew compromised of
@@ -24,16 +28,6 @@ function About() {
           reputation and standing in the local community and always go the
           distance to keep it spotless. Being the home builder of choice in town
           is a great responsibility we never take lightly.
-        </p>
-      </div>
-      <div className="description">
-        <p>
-          Established in 1990 we serve our clients with great respect and
-          professionalism. We always put customer satisfaction first and go the
-          distance to meet the needs and exceed the expectations of our clients.
-          Silverstar Construction is fully licensed and we offer free estimates.
-          With us, you will quality yet affordable construction or home
-          remodeling services.
         </p>
       </div>
       <div className="description">

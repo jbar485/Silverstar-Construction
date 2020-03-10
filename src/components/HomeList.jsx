@@ -48,7 +48,7 @@ function HomeList(props) {
         <img src={housefront2} alt="Front of House" className="galleryI" />
         <img src={back} alt="Back of house" className="galleryI" />
         <img src={back2} alt="Back of house" className="galleryI" />
-        <img src={backhouse} alt="Back of house" className="galleryI" />  
+        
         <img src={yard} alt="Backyard" className="galleryI" />
         <img src={outdoorkitchen} alt="Outdoor Kitchen" className="galleryI" />
         <img src={pool} alt="Pool" className="galleryI" />
