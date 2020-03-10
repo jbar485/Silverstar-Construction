@@ -1,8 +1,8 @@
 .contact-header {
-  margin-top: 5em;
+  margin-top: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 2em;
-  margin-left: 5%;
+  text-align: center;
 }
 
 .formStyles {
@@ -11,7 +11,7 @@
 }
 
 .inputStyles, .inputStylesArea, .inputStylesTop {
-  width: 40%;
+  width: 90%;
   margin-bottom: 2%;
   padding: 1%;
   border-radius: 0.3em;
@@ -27,9 +27,9 @@
 
 .btn {
   cursor: pointer;
-  width: 40%;
+  width: 90%;
   padding: 1%;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   background: #656565;
   border-radius: 0.4em;
 }
@@ -44,16 +44,16 @@
 }
 
 .description {
-  width: 50%;
+  width: 90%;
   margin-left: 5%;
   margin-top: 2em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 .information {
   margin-left: 5%;
   margin-top: 2em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 .info {
@@ -62,4 +62,42 @@
 
 .contact-page {
   font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .description {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
+
+  .contact-header {
+    margin-top: 5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    margin-left: 5%;
+  }
+
+  .information {
+    margin-left: 5%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
+
+  .inputStyles, .inputStylesArea, .inputStylesTop {
+    width: 40%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 0.3em;
+  }
+
+  .btn {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin-bottom: 10em;
+    background: #656565;
+    border-radius: 0.4em;
+  }
 }
