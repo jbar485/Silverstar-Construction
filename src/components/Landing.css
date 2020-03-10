@@ -85,8 +85,8 @@
 .quote .box:after {
   content: url("../images/quote.png");
   position: absolute;
-  bottom: -30px;
-  right: 10%;
+  bottom: -50px;
+  right: 10px;
   opacity: .1;
   color:black;
   width: 50%;
@@ -95,7 +95,55 @@
 
 
 @media only screen and (min-width: 768px) {
+  .quote .box:after {
+    content: url("../images/quote.png");
+    position: absolute;
+    bottom: -50px;
+    right: -150px;
+    opacity: .1;
+    color:black;
+    width: 50%;
+    height: auto;
+  }
 
+   .intro-div {
+    padding-top: 20px;
+    background-color: #070707;
+    color: #fff;
+    height: 79vh;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .intro-div:before {
+   background: none;
+   position: absolute;
+  
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+  }
+
+  .home-image{
+    display: inline;
+    margin-left: 50%;
+    size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border: 5px #070707 solid;
+  }
+  
+  .intro-inner {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: auto;
+    padding-top: 5rem;
+  }
 }
 
 /* font-family: 'Roboto', sans-serif; */

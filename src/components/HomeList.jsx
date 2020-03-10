@@ -45,22 +45,22 @@ function HomeList(props) {
           alt="Picture of front of house"
           className="galleryI"
         />
+        <img src={housefront2} alt="Front of House" className="galleryI" />
         <img src={back} alt="Back of house" className="galleryI" />
         <img src={back2} alt="Back of house" className="galleryI" />
-        <img src={backhouse} alt="Back of house" className="galleryI" />
-        <img src={basketball} alt="Basketball court" className="galleryI" />
-        <img src={bath} alt="Master Bath" className="galleryI" />
-        <img src={entry} alt="Entryway" className="galleryI" />
-        <img src={gym} alt="Home gym" className="galleryI" />
-        <img src={housefront2} alt="Front of House" className="galleryI" />
-        <img src={infinity} alt="Infinity Pool" className="galleryI" />
-        <img src={kitchen} alt="Kitchen" className="galleryI" />
+        <img src={backhouse} alt="Back of house" className="galleryI" />  
+        <img src={yard} alt="Backyard" className="galleryI" />
         <img src={outdoorkitchen} alt="Outdoor Kitchen" className="galleryI" />
-        <img src={pillar} alt="Pillars" className="galleryI" />
         <img src={pool} alt="Pool" className="galleryI" />
+        <img src={kitchen} alt="Kitchen" className="galleryI" />
+        <img src={bath} alt="Master Bath" className="galleryI" />
+        <img src={gym} alt="Home gym" className="galleryI" />
+        <img src={infinity} alt="Infinity Pool" className="galleryI" />
+        <img src={basketball} alt="Basketball court" className="galleryI" />
+        <img src={entry} alt="Entryway" className="galleryI" />
+        <img src={pillar} alt="Pillars" className="galleryI" />
         <img src={secret1} alt="Secret Office" className="galleryI" />
         <img src={secret2} alt="secret office" className="galleryI" />
-        <img src={yard} alt="Backyard" className="galleryI" />
       </div>
     </div>
   );
