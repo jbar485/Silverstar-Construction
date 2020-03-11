@@ -33,7 +33,7 @@ function Footer() {
         </div>
         <div className="footer-links">
           <li>
-            <a href="https://www.facebook.com/silverstar.homes.1" target="_blank">
+            <a href="https://www.facebook.com/Silverstar-Construction-103907397898036/" target="_blank">
               <img
                 src={facebook}
                 alt="Facebook Link"
