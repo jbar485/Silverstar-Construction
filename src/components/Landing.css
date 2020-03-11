@@ -364,6 +364,51 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 2em;
   }
+
+  .quality-button {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin: 20px;
+    margin-bottom: 5em;
+    background: #fff;
+    border: black 2px solid;
+  }
+
+  .quality-button:hover {
+    background: #070707;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    border: #fff 2px solid;
+  }
+
+  .contact-button {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin: 20px;
+    margin-bottom: 5em;
+    background: #fff;
+    border: black 2px solid;
+  }
+
+  .contact-button:hover, .about-button:hover {
+    background: #070707;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    border: #fff 2px solid;
+  }
+
+  .about-button {
+    cursor: pointer;
+    width: 40%;
+    padding: 1%;
+    margin: 20px;
+    margin-bottom: 5em;
+    background: #fff;
+    border: black 2px solid;
+  }
+
  
 }
 

@@ -88,6 +88,10 @@ p {
     font-size: 3rem;
     margin-left: 5%;
   }
+
+  .description {
+    font-size: 18px;
+  }
 }
 
 

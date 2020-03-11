@@ -18,14 +18,16 @@ function Landing() {
           <img src={smallLogo} alt="Front of House" className="small-logo" />
         </div>
         <img src={front} alt="Front of House" className="home-image" />
-        {/* <div className="link-buttons">
-          <li>
-            <Link to="/contact"><button type="submit" className="btn">Contact Us</button></Link>
-          </li>
-          <li>
-            <Link to="/about"><button type="submit" className="btn">About Us</button></Link>
-          </li>
-        </div> */}
+        <Link to="/contact">
+          <button type="submit" className="contact-button">
+            Contact Us
+          </button>
+        </Link>
+        <Link to="/about">
+          <button type="submit" className="about-button">
+            About Us
+          </button>
+        </Link>
       </div>
       <div>
         <div className="employee">
@@ -100,6 +102,11 @@ function Landing() {
             distance to keep it spotless. Being the home builder of choice in
             town is a great responsibility we never take lightly.
           </p>
+          <Link to="/homes">
+            <button type="submit" className="quality-button">
+              Our Work
+            </button>
+          </Link>
         </div>
         <img
           src={basketabll}

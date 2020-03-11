@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
+import smallLogo from "../images/small-logo.png";
 import facebook from "../images/facebook.png";
 import instagram from "../images/instagram.png";
 import "./Footer.css";
@@ -11,7 +12,7 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-logo">
           <img
-            src={logo}
+            src={smallLogo}
             alt="Silverstar construction logo"
             className="footer-logo"
           />
