@@ -75,5 +75,20 @@ p {
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .homes-header {
+    margin-top: 10rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4rem;
+    margin-left: 5%;
+  }
+  .gallery-header {
+    margin-top: 1rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3rem;
+    margin-left: 5%;
+  }
+}
+
 
   

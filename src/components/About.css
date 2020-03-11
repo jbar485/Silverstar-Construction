@@ -80,3 +80,32 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  .description {
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .about-header {
+    margin-top: 10rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4rem;
+    margin-left: 3%;
+  
+  }
+
+  .back-house {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .signature {
+    margin-left: 5%;
+    margin-bottom: 1em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+}
