@@ -94,8 +94,8 @@
 }
 
 .employee {
-  background: url('../images/spray.webp') no-repeat;
-background-size: 100%;
+  background-color: #fff;
+
 }
 
 .landing-header {
@@ -154,6 +154,7 @@ background-size: 100%;
     position: relative;
     text-align: center;
     margin-top: 5px;
+    overflow: hidden;
   }
   
   .intro-div:before {
@@ -173,8 +174,7 @@ background-size: 100%;
     bottom: 0;
     left: 0;
     width: 50%;
-    height: 100%;
-    border: 5px #070707 solid;
+    height: auto;
   }
   
   .intro-inner {
@@ -186,8 +186,7 @@ background-size: 100%;
   }
 
   .employee {
-    background: url('../images/spray.webp') no-repeat;
- background-size: 100%;
+    background-color: #fff;
   }
 
   .landing-header {
@@ -239,6 +238,18 @@ background-size: 100%;
     position: relative;
     text-align: center;
     margin-top: 5px;
+    overflow: hidden;
+  }
+
+  .home-image{
+    display: inline;
+    margin-left: 50%;
+    size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
   }
 
   .landing-header {
@@ -272,6 +283,67 @@ background-size: 100%;
     color:black;
     width: 50%;
     height: auto;
+  }
+ 
+}
+
+@media only screen and (min-width: 1440px) {
+  .intro-div {
+    padding-top: 60px;
+    background-color: #070707;
+    color: #fff;
+    height: 84vh;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+  }
+
+  .landing-header {
+    margin-top: 0em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    margin-left: 5%;
+    padding-top: 2em;
+    margin-right: 68%;
+  }
+
+  .quote .box {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    box-sizing: border-box; 
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: -10px 10px 30px rgba(0,0,0,.2);
+    width: 48%;
+  }
+  
+  .quote .box:after {
+    content: url("../images/quote.png");
+    position: absolute;
+    bottom: -50px;
+    right: -30px;
+    opacity: .1;
+    color:black;
+    width: 50%;
+    height: auto;
+  }
+
+  .home-image {
+    display: inline;
+    margin-left: 50%;
+    size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+    
   }
  
 }
