@@ -14,25 +14,19 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className='contact-page'>
-        <div className="contact-header">
-          <h1>Contact</h1>
-        </div>
-        <div className="description">
-          <p>
-          If you want to build the house of your dreams or have your current one remodeled Silverstar Construction is the company to call! We look forward to the opportunity to cater to your needs and exceed your expectations. Trust our experienced home builders to help you achieve the results you want.
-          </p>
-        </div>
+      <div className="contact-page">
+        <h1 className="contact-header">Contact</h1>
+        <p className="description">
+          If you want to build the house of your dreams or have your current one
+          remodeled Silverstar Construction is the company to call! We look
+          forward to the opportunity to cater to your needs and exceed your
+          expectations. Trust our experienced home builders to help you achieve
+          the results you want.
+        </p>
         <div className="information">
-          <div className="info">
-            <p>Phone: +1 (360)921-0007</p>
-          </div>
-          <div className="info">
-            <p>Email: silverstarhomes20@gmail.com</p>
-          </div>
-          <div className="info">
-            <p>Address: 4117 NE 232 ST Ridgefield Wa. 98642</p>
-          </div>
+          <p className="info">Phone: +1 (360)921-0007</p>
+          <p className="info">Email: silverstarhomes20@gmail.com</p>
+          <p className="info">Address: 4117 NE 232 ST Ridgefield Wa. 98642</p>
         </div>
         <div className="formStyles">
           <form>

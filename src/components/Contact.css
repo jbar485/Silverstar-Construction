@@ -145,19 +145,27 @@
   }
 
   .inputStyles, .inputStylesArea, .inputStylesTop {
-    width: 80%;
+    width: 60%;
     margin-bottom: 2%;
     padding: 1%;
     border-radius: 0.3em;
+    margin-left: 5%;
+  }
+
+  .formStyles {
+    text-align: left;
+    margin-left: 5%;
+    display: inline;
   }
 
   .btn {
     cursor: pointer;
-    width: 40%;
+    width: 30%;
     padding: 1%;
     margin-bottom: 5em;
     background: #656565;
     border-radius: 0.4em;
+    margin-left: 5%;
   }
 
   .inputStylesArea {
