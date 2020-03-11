@@ -384,29 +384,42 @@
 
   .contact-button {
     cursor: pointer;
-    width: 40%;
+    width: 30%;
     padding: 1%;
-    margin: 20px;
-    margin-bottom: 5em;
-    background: #fff;
-    border: black 2px solid;
+    margin: 2%;
+    
+    background: #070707;
+    color: #fff;
+    border: #fff 2px solid;
+    float: left;
+   margin-left: 15%;
+    margin-top: 5%;
   }
 
   .contact-button:hover, .about-button:hover {
-    background: #070707;
-    color: #fff;
+    background: #fff;
     transition: 0.5s ease-in-out;
-    border: #fff 2px solid;
+    color: #070707;
   }
 
   .about-button {
     cursor: pointer;
-    width: 40%;
+    width: 30%;
     padding: 1%;
     margin: 20px;
-    margin-bottom: 5em;
-    background: #fff;
-    border: black 2px solid;
+    color: #fff;
+    
+    background: #070707;
+    border: #fff 2px solid;
+    float: left;
+    margin-top: 5%;
+  }
+
+  .small-logo {
+    width: 80px;
+    margin-left: 21%;
+    margin-right: 90%;
+    margin-top: 1%;
   }
 
  

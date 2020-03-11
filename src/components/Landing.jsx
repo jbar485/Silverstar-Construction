@@ -15,19 +15,21 @@ function Landing() {
             For three decades, Silverstar Construction has been building custom
             homes in Clark County. Let us make your dream in to a reality.
           </p>
-          <img src={smallLogo} alt="Front of House" className="small-logo" />
-        </div>
-        <img src={front} alt="Front of House" className="home-image" />
-        <Link to="/contact">
+          <Link to="/contact">
           <button type="submit" className="contact-button">
-            Contact Us
+            CONTACT US
           </button>
         </Link>
         <Link to="/about">
           <button type="submit" className="about-button">
-            About Us
+            ABOUT US
           </button>
-        </Link>
+        </Link><br/>
+          
+        </div>
+        <img src={smallLogo} alt="Front of House" className="small-logo" />
+        <img src={front} alt="Front of House" className="home-image" />
+        
       </div>
       <div>
         <div className="employee">
