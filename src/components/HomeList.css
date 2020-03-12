@@ -28,6 +28,11 @@ p {
   width: 97%;
   margin: 1.5%;
   height: auto;
+  transition: .5s ease-in-out;
+}
+
+.galleryI:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (min-width: 768px) {
