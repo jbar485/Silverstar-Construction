@@ -22,6 +22,7 @@ _This is a react based app where you will be able to view Silverstar Constructio
 ## Known Bugs
 
 _None_
+_Trying to figure out how to use sendgrid to take the information in my form and use it to send an email_
 
 ## Support and contact details
 
