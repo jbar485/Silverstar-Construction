@@ -29,7 +29,7 @@ class Contact extends React.Component {
           <p className="info">Address: 4117 NE 232 ST Ridgefield Wa. 98642</p>
         </div>
         <div className="formStyles">
-          <form>
+          <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="post">
             <input
               className="inputStylesTop"
               id="name"
@@ -42,13 +42,6 @@ class Contact extends React.Component {
               id="email"
               type="email"
               placeholder="Email"
-            />
-            <br />
-            <input
-              className="inputStyles"
-              id="subject"
-              type="subject"
-              placeholder="Subject"
             />
             <br />
             <textarea
@@ -65,6 +58,21 @@ class Contact extends React.Component {
         </div>
       </div>
     );
+  }
+  onNameChange(event) {
+    this.setState({name: event.target.value})
+  }
+  
+  onEmailChange(event) {
+    this.setState({email: event.target.value})
+  }
+  
+  onMessageChange(event) {
+    this.setState({message: event.target.value})
+  }
+
+  handleSubmit(event) {
+
   }
 }
 
