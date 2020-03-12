@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a react based app where you will be able to view the._
+_This is a react based app where you will be able to view Silverstar Construction and see the things they do._
 
 ## Setup/Installation Requirements
 * _Click the clone or download button and copy the link_
