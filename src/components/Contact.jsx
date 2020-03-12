@@ -29,12 +29,19 @@ class Contact extends React.Component {
           <p className="info">Address: 4117 NE 232 ST Ridgefield Wa. 98642</p>
         </div>
         <div className="formStyles">
-          <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="post">
+          <form
+            id="contact-form"
+            onSubmit={this.handleSubmit.bind(this)}
+            method="post"
+          >
             <input
               className="inputStylesTop"
               id="name"
               type="text"
               placeholder="Name"
+              value={this.state.name}
+              onChange={this.onNameChange.bind(this)}
+            />
             />
             <br />
             <input
@@ -42,6 +49,8 @@ class Contact extends React.Component {
               id="email"
               type="email"
               placeholder="Email"
+              value={this.state.email}
+              onChange={this.onEmailChange.bind(this)}
             />
             <br />
             <textarea
@@ -49,6 +58,9 @@ class Contact extends React.Component {
               id="message"
               type=""
               placeholder="Message"
+              value={this.state.message}
+              onChange={this.onMessageChange.bind(this)}
+            />
             />
             <br />
             <button type="submit" className="btn">
@@ -60,20 +72,18 @@ class Contact extends React.Component {
     );
   }
   onNameChange(event) {
-    this.setState({name: event.target.value})
+    this.setState({ name: event.target.value });
   }
-  
+
   onEmailChange(event) {
-    this.setState({email: event.target.value})
+    this.setState({ email: event.target.value });
   }
-  
+
   onMessageChange(event) {
-    this.setState({message: event.target.value})
+    this.setState({ message: event.target.value });
   }
 
-  handleSubmit(event) {
-
-  }
+  handleSubmit(event) {}
 }
 
 export default Contact;
