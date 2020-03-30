@@ -4,35 +4,6 @@ import plane from "../images/plane.png";
 import "./Contact.css";
 
 class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: ""
-    };
-  }
-
-  handleSubmit(e){
-    e.preventDefault();
-    axios({
-      method: "POST", 
-      url:"http://localhost:3002/send", 
-      data:  this.state
-    }).then((response)=>{
-      if (response.data.status === 'success'){
-        alert("Message Sent."); 
-        this.resetForm()
-      }else if(response.data.status === 'fail'){
-        alert("Message failed to send.")
-      }
-    })
-  }
-
-  resetForm(){
-    this.setState({name: "", email: "", message: ""})
-  }
-
   render() {
     return (
       <div className="contact-page">
@@ -52,26 +23,30 @@ class Contact extends React.Component {
         <div className="formStyles">
           <form
             id="contact-form"
-            onSubmit={this.handleSubmit.bind(this)}
-            method="post"
-          >
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            method="post">
+            
+            <input 
+            type="hidden" 
+            name="bot-field"
+            />
+          
             <input
               className="inputStylesTop"
               id="name"
               type="text"
               placeholder="Name"
-              value={this.state.name}
-              onChange={this.onNameChange.bind(this)}
+              defaultValue=""
             />
-            />
+          
             <br />
             <input
               className="inputStyles"
               id="email"
               type="email"
               placeholder="Email"
-              value={this.state.email}
-              onChange={this.onEmailChange.bind(this)}
+              defaultValue=""
             />
             <br />
             <textarea
@@ -79,10 +54,9 @@ class Contact extends React.Component {
               id="message"
               type=""
               placeholder="Message"
-              value={this.state.message}
-              onChange={this.onMessageChange.bind(this)}
+              defaultValue=""
             />
-            />
+           
             <br />
             <button type="submit" className="btn">
               <img src={plane} alt="Send Mail" className="plane" />
@@ -92,19 +66,6 @@ class Contact extends React.Component {
       </div>
     );
   }
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
-
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
-  }
-
-  handleSubmit(event) {}
 }
 
 export default Contact;
